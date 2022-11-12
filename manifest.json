@@ -1,0 +1,16 @@
+{
+  "manifest_version" : 3,
+  "name" : "Verification Checker",
+  "version" : "1.0",
+  "description" : "check if a person paid for verification",
+  "content_scripts": [
+    {
+      "js": [
+        "script.js"
+      ],
+      "matches": [
+        "https://twitter.com/*"
+      ]
+    }
+  ]
+}
